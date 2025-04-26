@@ -54,8 +54,16 @@ Pour chaque exercice :
 
 _Votre réponse pour l'exercice 1 :_
 ```
-Expliquez votre solution ici
-[Ajoutez vos captures d'écran]
+usePosts : récupération et gestion des posts depuis l'API.
+
+PostList : affichage de tous les posts.
+
+PostSearch : recherche dynamique par mot-clé dans le titre ou le contenu.
+
+Tests fonctionnels réalisés et validés
+
+[<img width="960" alt="Screenshot 2025-04-26 172100" src="https://github.com/user-attachments/assets/efafc628-8b05-40b2-be0b-42a20c58472e" />
+]
 ```
 
 ### Exercice 2 : Hooks Personnalisés
