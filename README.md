@@ -74,9 +74,22 @@ Tests fonctionnels réalisés et validés
 
 _Votre réponse pour l'exercice 2 :_
 ```
-Expliquez votre solution ici
-[Ajoutez vos captures d'écran]
+Résumé de la solution
+
+L’objectif de cet exercice était de créer deux hooks personnalisés (useDebounce et useLocalStorage) et de les intégrer dans une application de blog simple.
+1. useDebounce :
+
+Le hook useDebounce permet de limiter la fréquence d’exécution d’une action (ex. : recherche) en attendant que l’utilisateur cesse de taper pendant un certain délai. Il permet ainsi de réduire les appels API pendant que l’utilisateur saisit du texte.
+
+    Utilisation : Le hook est utilisé dans un champ de recherche. Chaque fois que l’utilisateur tape quelque chose, le hook attend 500 ms d’inactivité avant d'exécuter la recherche.
+
+2. useLocalStorage :
+
+Le hook useLocalStorage permet de sauvegarder les préférences utilisateur dans le localStorage, ce qui permet de les conserver même après un rechargement de la page.
+
+    Utilisation : Ce hook est utilisé pour mémoriser et appliquer le thème de l’application (clair ou sombre). Le thème choisi est stocké dans le localStorage et est réappliqué chaque fois que l'utilisateur revisite la page.
 ```
+![image alt](https://github.com/DaizMourad/tp-react-hooks-blog/blob/664cccb3e4a1168ddb7daf25204ff77d36f3de4f/Exercice%201%20%20%C3%89tat%20et%20Effets.png)
 
 ### Exercice 3 : Optimisation et Context
 #### Objectif : Gérer le thème global et optimiser les rendus
